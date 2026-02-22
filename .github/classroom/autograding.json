@@ -1,0 +1,174 @@
+{
+  "tests": [
+    {
+      "name": "Test 1 (encode ex1.txt)",
+      "setup": "",
+      "run": "./rle -e tests/ex1.txt output.rle && cmp output.rle tests/ex1.rle",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2 (decode ex1.rle)",
+      "setup": "",
+      "run": "./rle -d tests/ex1.rle output && cmp output tests/ex1.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3 (encode ex2.txt)",
+      "setup": "",
+      "run": "./rle -e tests/ex2.txt output.rle && cmp output.rle tests/ex2.rle",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4 (decode ex2.rle)",
+      "setup": "",
+      "run": "./rle -d tests/ex2.rle output && cmp output tests/ex2.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5 (encode ex3.txt)",
+      "setup": "",
+      "run": "./rle -e tests/ex3.txt output.rle && cmp output.rle tests/ex3.rle",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6 (decode ex3.rle)",
+      "setup": "",
+      "run": "./rle -d tests/ex3.rle output && cmp output tests/ex3.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7 (encode ex4.txt)",
+      "setup": "",
+      "run": "./rle -e tests/ex4.txt output.rle && cmp output.rle tests/ex4.rle",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8 (decode ex4.rle)",
+      "setup": "",
+      "run": "./rle -d tests/ex4.rle output && cmp output tests/ex4.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9 (encode ex5.txt)",
+      "setup": "",
+      "run": "./rle -e tests/ex5.txt output.rle && cmp output.rle tests/ex5.rle",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10 (decode ex5.rle)",
+      "setup": "",
+      "run": "./rle -d tests/ex5.rle output && cmp output tests/ex5.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 11 (encode ex6.txt)",
+      "setup": "",
+      "run": "./rle -e tests/ex6.txt output.rle && cmp output.rle tests/ex6.rle",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 12 (decode ex6.rle)",
+      "setup": "",
+      "run": "./rle -d tests/ex6.rle output && cmp output tests/ex6.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 13 (encode ex7.bmp)",
+      "setup": "",
+      "run": "./rle -e tests/ex7.bmp output.rle && cmp output.rle tests/ex7.rle",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 14 (decode ex7.rle)",
+      "setup": "",
+      "run": "./rle -d tests/ex7.rle output && cmp output tests/ex7.bmp",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 15 (encode/decode ex8.jpg)",
+      "setup": "",
+      "run": "./rle -e tests/ex8.jpg output.rle && ./rle -d output.rle output && cmp output tests/ex8.jpg",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 16 (encode/decode ex9.txt)",
+      "setup": "",
+      "run": "./rle -e tests/ex9.txt output.rle && ./rle -d output.rle output && cmp output tests/ex9.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 17 (encode/decode E.coli)",
+      "setup": "",
+      "run": "./rle -e tests/ex10.E.coli output.rle && ./rle -d output.rle output && cmp output tests/ex10.E.coli",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
