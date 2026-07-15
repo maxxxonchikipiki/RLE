@@ -1,5 +1,6 @@
 ![Workflow Status](https://github.com/maxxxonchikipiki/RLE/actions/workflows/classroom.yml/badge.svg)
 
+Данный репозиторий - копия закрытого учебного репозитория учебной программы 1-го курса (1-го семестра) факультета ПМ-ПУ СПбГУ
 # Run-Length Encoding
 
 Кодирование длин серий (run-length encoding, RLE) — алгоритм сжатия данных, заменяющий повторяющиеся символы на один символ и число его повторов. 
